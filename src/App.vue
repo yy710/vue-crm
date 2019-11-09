@@ -1,7 +1,9 @@
 <template>
   <div id="app">
+    <!--
     <router-link to="/111">1111</router-link>
-    <router-link to="/222">222</router-link>
+    <router-link to="/222">222</router-link> 
+    -->
     <router-view></router-view>
   </div>
 </template>
@@ -19,7 +21,7 @@ const routes = [
     component: HelloWorld
   },
   {
-    path: "/222",
+    path: "/new-referred",
     component: NewReferred
   }
 ];
@@ -40,8 +42,8 @@ export default {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /* text-align: center; */
   color: #2c3e50;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 </style>
